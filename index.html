@@ -1,6 +1,133 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- /*<style>
+        header h1 {
+            text-align: center;
+        }
+
+        html {
+            display: block;
+        }
+
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: purple;
+        }
+
+        body {
+            width: 100%;
+            max-width: 1024px;
+            margin: 0 auto;
+            background-color: #DEE3DF;
+            font-size: 62.5%;
+        }
+
+        header,
+        main,
+        footer {
+            background-color: #ddd;
+            font-size: 1.6em;
+        }
+
+        header {
+            padding: 1.875em 0;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        main h2 {
+            padding: 0.625em 0 0.625em 0.625em;
+        }
+
+        section {
+            margin: 1.875em 0;
+        }
+
+        section:first-child {
+            margin-top: 0;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        nav ul {
+            text-align: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 1em;
+            font-size: 0.75em;
+        }
+
+        p {
+            padding: 1.25em;
+        }
+
+        p.blue {
+            color:blue
+        }
+
+        p.red {
+            color:red
+        }
+
+        p.green {
+            color:green
+        }
+
+        p.gold {
+            color:gold
+        }
+        #birthday {
+            color:blue;
+        }
+
+        figure {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3em;
+        }
+
+        footer p {
+            display: inline-block;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
+        </style>*/ -->
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <title>The Places I've Lived</title>
     </head>
     <body>
@@ -37,7 +164,7 @@
                 <section>
                     <a name="Chicago, IL"></a>
                     <h2>Chicago, IL</h2>
-                    <p>On May 2, 1978 I was born in Chicago, Il to the parents of Rein and Sherry Turn.  I lived in Chicago for about two years.  Naturally I became a diehard Cubs fan.</p>
+                    <p id="birthday">On May 2, 1978 I was born in Chicago, Il to the parents of Rein and Sherry Turn.  I lived in Chicago for about two years.  Naturally I became a diehard Cubs fan.</p>
                     <figure>
                         <img src="https://s7.bluegreenvacations.com/is/image/BGV/cityscapes-chicago-illinois-downtown-view-01?$bgv-gallery-main$" alt="Chicago, IL">
                     </figure>
@@ -45,7 +172,7 @@
                 <section>
                     <a name="Davenport, IA"></a>
                     <h2>Davenport, IA</h2>
-                    <p>At age two my parents moved our family to Davenport, IA.  Here I was able to solidify my love for the Cubs.</p>
+                    <p class="blue">At age two my parents moved our family to Davenport, IA.  Here I was able to solidify my love for the Cubs.</p>
                     <figure>
                         <img src="http://www.greatrace.com/wp-content/uploads/2012/11/Quad-Cities-aerial-of-river-bend.jpg" alt="Davenport, IA">
                     </figure>
@@ -53,7 +180,7 @@
                 <section>
                     <a name="stlouis-1"></a>
                     <h2>St. Louis, MO</h2>
-                    <p>At age four my parents moved our family to St. Louis, MO.  I lived in St. Louis until I was 15.  During this time I grew to hate the St. Louis Cardinals.</p>
+                    <p class="red">At age four my parents moved our family to St. Louis, MO.  I lived in St. Louis until I was 15.  During this time I grew to hate the St. Louis Cardinals.</p>
                     <figure>
                         <img src="http://cityhub.movoto.com/1472563140642_6-st-louis-suburbs-to-satisfy-your-moving-must-haves--4.jpg" alt="St. Louis, MO">
                     </figure>
@@ -61,7 +188,7 @@
                 <section>
                     <a name="New milford, CT"></a>
                     <h2>New Milford, CT</h2>
-                    <p>At age 15 my parents moved our family to New Milford, CT.  I lived in New Milford for 1 and a half years.  During this time I learned to hate winter.</p>
+                    <p class="green">At age 15 my parents moved our family to New Milford, CT.  I lived in New Milford for 1 and a half years.  During this time I learned to hate winter.</p>
                     <figure>
                         <img src="https://static01.nyt.com/images/2013/06/23/realestate/23LIVING_SPAN/23LIVING_SPAN-master1050-v2.jpg" alt="New Milford, CT">
                     </figure>
@@ -69,7 +196,7 @@
                 <section>
                     <a name="stlouis-2"></a>
                     <h2>St. Louis, MO</h2>
-                    <p>Halfway through my junior year of high school my parents moved our family back to St. Louis, MO.</p>
+                    <p class="red">Halfway through my junior year of high school my parents moved our family back to St. Louis, MO.</p>
                     <figure>
                         <img src="http://cityhub.movoto.com/1472563140642_6-st-louis-suburbs-to-satisfy-your-moving-must-haves--4.jpg" alt="St. Louis, MO">
                     </figure>
@@ -77,7 +204,7 @@
                 <section>
                     <a name="Columbia, MO"></a>
                     <h2>Columbia, MO</h2>
-                    <p>At age 18 I graduated from Parkway South High School.  In the fall I attended the Univeristy of Missouri - Columbia.  I graduated from the University of Missouri in 2000 with a degree in hotel and restaurant management. </p>
+                    <p class="gold">At age 18 I graduated from Parkway South High School.  In the fall I attended the Univeristy of Missouri - Columbia.  I graduated from the University of Missouri in 2000 with a degree in hotel and restaurant management. </p>
                     <figure>
                         <img src="https://s-media-cache-ak0.pinimg.com/originals/73/4d/80/734d8057fee90afaf0344e5e89fe1e3b.jpg" alt="Columbia, MO">
                     </figure>
@@ -85,7 +212,7 @@
                 <section>
                     <a name="stlouis-3"></a>
                     <h2>St. Louis, MO</h2>
-                    <p>Upon graduating from the University of Missouri I returned to St. Louis, MO.  </p>
+                    <p class="red">Upon graduating from the University of Missouri I returned to St. Louis, MO.  </p>
                     <figure>
                         <img src="http://cityhub.movoto.com/1472563140642_6-st-louis-suburbs-to-satisfy-your-moving-must-haves--4.jpg" alt="St. Louis, MO">
                     </figure>
@@ -96,6 +223,7 @@
             <p>&#169; 2017 Andrew Turn</p>
         </footer>
     </body>
+</html>
 
 
 </html>
